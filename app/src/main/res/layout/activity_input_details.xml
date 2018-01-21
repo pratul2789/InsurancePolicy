@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pratul.insurancepolicy.InputDetails">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Vehicle Information"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/make"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Title"
+                android:padding="20dp"
+                android:text="Make:"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/Cars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/make"
+                android:layout_marginBottom="19dp"
+                android:layout_toEndOf="@+id/make"
+                android:layout_toRightOf="@+id/make"
+                android:paddingTop="20dp"></Spinner>
+
+            <TextView
+                android:id="@+id/Model"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/make"
+                android:padding="20dp"
+                android:text="Model:"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/Modelcars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/make"
+                android:layout_marginTop="16dp"
+                android:layout_toEndOf="@+id/Model"
+                android:layout_toRightOf="@+id/Model"
+                android:paddingTop="20dp"></Spinner>
+
+            <TextView
+                android:id="@+id/engFuel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Model"
+                android:padding="20dp"
+                android:text="Fuel:"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/fuel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Model"
+                android:layout_marginTop="19dp"
+                android:layout_toEndOf="@+id/make"
+                android:layout_toRightOf="@+id/make"></Spinner>
+
+            <TextView
+                android:id="@+id/yom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/engFuel"
+                android:padding="20dp"
+                android:text="YOM:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/caryom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/yom"
+                android:layout_toEndOf="@+id/Model"
+                android:layout_toRightOf="@+id/Model"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/engCC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/yom"
+                android:padding="20dp"
+                android:text="Engine CC:"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/CC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/seat"
+                android:layout_marginBottom="19dp"
+                android:layout_toEndOf="@+id/engCC"
+                android:layout_toRightOf="@+id/engCC"></Spinner>
+
+            <TextView
+                android:id="@+id/seat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/engCC"
+                android:padding="20dp"
+                android:text="Seating Capacity:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/seatcap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CC"
+                android:layout_toEndOf="@+id/seat"
+                android:layout_toRightOf="@+id/seat"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/zone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/seat"
+                android:padding="20dp"
+                android:text="Zone:"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/zoneSP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/fuel"
+                android:layout_alignStart="@+id/fuel"
+                android:layout_below="@+id/seat"
+                android:layout_marginTop="20dp"></Spinner>
+
+            <TextView
+                android:id="@+id/Title1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/zone"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="20sp"
+                android:text="OD Section"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Title1"
+                android:padding="20dp"
+                android:text="IDV:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/inpIDV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/caryom"
+                android:layout_alignRight="@+id/caryom"
+                android:layout_below="@+id/Title1"
+                android:layout_toEndOf="@+id/idv"
+                android:layout_toRightOf="@+id/idv"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/odPremium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idv"
+                android:padding="20dp"
+                android:text="OD Premium:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/odPreVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/odPremium"
+                android:layout_alignBottom="@+id/odPremium"
+                android:layout_toEndOf="@+id/Modelcars"
+                android:layout_toRightOf="@+id/Modelcars"
+                android:text="1234567"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/odDiscount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/odPremium"
+                android:padding="20dp"
+                android:text="OD Discount:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Disc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/odDiscount"
+                android:layout_alignBottom="@+id/odDiscount"
+                android:layout_toEndOf="@+id/odPremium"
+                android:layout_toRightOf="@+id/odPremium"
+                android:inputType="number"
+                android:text="40" />
+
+            <TextView
+                android:id="@+id/Premium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/odDiscount"
+                android:padding="20dp"
+                android:text="Premium:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/PremVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/Premium"
+                android:layout_alignBottom="@+id/Premium"
+                android:layout_alignEnd="@+id/seatcap"
+                android:layout_alignRight="@+id/seatcap"
+                android:text="789456123"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ncb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Premium"
+                android:padding="20dp"
+                android:text="NCB:"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/ncbSP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ncb"
+                android:layout_marginBottom="19dp"
+                android:layout_toEndOf="@+id/ncb"
+                android:layout_toRightOf="@+id/ncb"
+                android:paddingTop="20dp"></Spinner>
+
+            <TextView
+                android:id="@+id/netPremium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ncb"
+                android:padding="20dp"
+                android:text="Net Premium:"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/netPreVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/netPremium"
+                android:layout_alignBottom="@+id/netPremium"
+                android:layout_toEndOf="@+id/Disc"
+                android:layout_toRightOf="@+id/Disc"
+                android:text="1234567"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/Title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/netPremium"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="20sp"
+                android:text="Liability Section"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tpRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Title2"
+                android:padding="20dp"
+                android:text="TP Rate:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tpRateVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tpRate"
+                android:layout_alignBottom="@+id/tpRate"
+                android:layout_toEndOf="@+id/tpRate"
+                android:layout_toRightOf="@+id/tpRate"
+                android:text="1234567"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ownerDriver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tpRate"
+                android:padding="20dp"
+                android:text="Owner Driver:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/driverVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/ownerDriver"
+                android:layout_alignBottom="@+id/ownerDriver"
+                android:layout_toEndOf="@+id/ownerDriver"
+                android:layout_toRightOf="@+id/ownerDriver"
+                android:inputType="number"
+                android:text="100" />
+
+            <TextView
+                android:id="@+id/payDriver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ownerDriver"
+                android:padding="20dp"
+                android:text="LL to Paid Driver:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/paydriverVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/payDriver"
+                android:layout_alignBottom="@+id/payDriver"
+                android:layout_toEndOf="@+id/payDriver"
+                android:layout_toRightOf="@+id/payDriver"
+                android:inputType="number"
+                android:text="50" />
+
+            <TextView
+                android:id="@+id/paPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/payDriver"
+                android:padding="20dp"
+                android:text="PA cover to unamed Passenger:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/paPassVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/paPass"
+                android:layout_alignBottom="@+id/paPass"
+                android:layout_toEndOf="@+id/paPass"
+                android:layout_toRightOf="@+id/paPass"
+                android:text="1234567"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/totalLiability"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/paPass"
+                android:padding="20dp"
+                android:text="Total:"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/totalLiabilityVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/totalLiability"
+                android:layout_alignBottom="@+id/totalLiability"
+                android:layout_toEndOf="@+id/totalLiability"
+                android:layout_toRightOf="@+id/totalLiability"
+                android:text="1234567"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/Title3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/totalLiability"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="20sp"
+                android:text="Add On Section"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/carSegment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Title3"
+                android:padding="20dp"
+                android:text="Segment:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/carSegmentVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/carSegment"
+                android:layout_alignBottom="@+id/carSegment"
+                android:layout_toEndOf="@+id/carSegment"
+                android:layout_toRightOf="@+id/carSegment"
+                android:text="MPV-SUV"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/carPlan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carSegment"
+                android:padding="20dp"
+                android:text="Plan:"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/carPlanSP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/carPlan"
+                android:layout_marginBottom="19dp"
+                android:layout_toEndOf="@+id/carPlan"
+                android:layout_toRightOf="@+id/carPlan"
+                android:paddingTop="20dp"></Spinner>
+
+            <TextView
+                android:id="@+id/choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carPlan"
+                android:padding="20dp"
+                android:text="Gold:"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/choiceSP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/choice"
+                android:layout_marginBottom="19dp"
+                android:layout_toEndOf="@+id/choice"
+                android:layout_toRightOf="@+id/choice"
+                android:paddingTop="20dp"></Spinner>
+
+            <TextView
+                android:id="@+id/totalAddOn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/choice"
+                android:padding="20dp"
+                android:text="Total:"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/totalAddOnVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/totalAddOn"
+                android:layout_alignBottom="@+id/totalAddOn"
+                android:layout_toEndOf="@+id/totalAddOn"
+                android:layout_toRightOf="@+id/totalAddOn"
+                android:text="1234567"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/generateResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/totalAddOn"
+                android:layout_centerHorizontal="true"
+                android:text="Calculate Premium" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

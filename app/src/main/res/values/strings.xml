@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">InsurancePolicy</string>
+    <string-array name="Manufacturers">
+        <item>Mahindra</item>
+        <item>Hyundai</item>
+        <item>Suzuki</item>
+    </string-array>
+    <string-array name="Fuel">
+        <item>Petrol</item>
+        <item>Diesel</item>
+    </string-array>
+    <string-array name="EngineCC">
+        <item> Less than 1000 cc"</item>
+        <item>1000-1500 cc</item>
+        <item> More than 1000 cc"</item>
+    </string-array>
+    <string-array name="Zones">
+        <item>Zone A</item>
+        <item>Zone B</item>
+    </string-array>
+    <string-array name="ncbValues">
+        <item>0</item>
+        <item>20</item>
+        <item>25</item>
+        <item>25</item>
+        <item>35</item>
+        <item>45</item>
+        <item>50</item>
+    </string-array>
+    <string-array name="PlanValues">
+        <item>Pearl</item>
+        <item>Pearl+</item>
+        <item>Silver</item>
+        <item>Sapphire</item>
+        <item>Sapphire+</item>
+        <item>Sapphire+ RTI</item>
+    </string-array>
+    <string-array name="ChoiceValues">
+        <item>Choice 1</item>
+        <item>Choice 2</item>
+    </string-array>
+</resources>
