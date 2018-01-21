@@ -2,9 +2,269 @@
     <string name="app_name">InsurancePolicy</string>
     <string-array name="Manufacturers">
         <item>Mahindra</item>
+        <item>Chevrolet</item>
+        <item>Datsun</item>
+        <item>Fiat</item>
+        <item>Ford</item>
+        <item>Honda</item>
         <item>Hyundai</item>
-        <item>Suzuki</item>
+        <item>MahindraRenault</item>
+        <item>Maruti</item>
+        <item>Renault</item>
+        <item>Nissan</item>
+        <item>Skoda</item>
+        <item>Toyota</item>
+        <item>Tata</item>
+        <item>Datsun</item>
+        <item>Volkswagen</item>
     </string-array>
+    <string-array name="Mahindra">
+        <item>Verito</item>
+        <item>Alfa Passenger</item>
+        <item>Armada</item>
+        <item>Bolero</item>
+        <item>CDR</item>
+        <item>Classic</item>
+        <item>Commander</item>
+        <item>Double Cab</item>
+        <item>E2O</item>
+        <item>Genio (PVT)</item>
+        <item>Gio PV</item>
+        <item>Hard Top (PV)</item>
+        <item>Imperio</item>
+        <item>Jeep</item>
+        <item>Kuv 100</item>
+        <item>Marshal</item>
+        <item>Maxx</item>
+        <item>Maxximo (PCI)</item>
+        <item>MM</item>
+        <item>Nuvosport</item>
+        <item>P 409 High (AC)</item>
+        <item>Pick Up (AC)</item>
+        <item>Quanto</item>
+        <item>Reva</item>
+        <item>Savari</item>
+        <item>Single</item>
+        <item>Soft Top (PV)</item>
+        <item>Supro</item>
+        <item>Trax</item>
+        <item>Utility</item>
+        <item>Voyager</item>
+        <item>Xylo</item>
+        <item>Rexton (PVI)</item>
+        <item>Scorpio</item>
+        <item>Thar</item>
+        <item>Tuv 300</item>
+        <item>Xuv 500</item>
+    </string-array>
+    <string-array name="Chevrolet">
+        <item>Aveo</item>
+        <item>Beat</item>
+        <item>Enjoy</item>
+        <item>Forester</item>
+        <item>Optra</item>
+        <item>Sail</item>
+        <item>Spark</item>
+        <item>Srv</item>
+        <item>Tavera</item>
+        <item>Captiva</item>
+        <item>Nova</item>
+        <item>Cruze</item>
+        <item>Trailblazer</item>
+    </string-array>
+    <string-array name="Datsun">
+        <item>Go</item>
+        <item>Go Plus</item>
+    </string-array>
+    <string-array name="Fiat">
+        <item>Avventura</item>
+        <item>Grande Punto</item>
+        <item>Linea</item>
+        <item>Palio</item>
+        <item>Petra</item>
+        <item>Punto</item>
+        <item>Siena</item>
+        <item>Uno</item>
+        <item>500</item>
+    </string-array>
+    <string-array name="Ford">
+        <item>Fiesta</item>
+        <item>Classic</item>
+        <item>Escort</item>
+        <item>Figo</item>
+        <item>Figo Aspire</item>
+        <item>Ikon</item>
+        <item>New Figo</item>
+        <item>Sportee</item>
+        <item>Ecosport</item>
+        <item>Fusion</item>
+        <item>Endeavour</item>
+        <item>Mondeo</item>
+    </string-array>
+    <string-array name="Honda">
+        <item>New Jazz</item>
+        <item>Amaze</item>
+        <item>Brio</item>
+        <item>City</item>
+        <item>Civic</item>
+        <item>Mobilio</item>
+        <item>Accord</item>
+        <item>Crv</item>
+    </string-array>
+
+    <string-array name="Hyundai">
+        <item>Accent</item>
+        <item>Getz</item>
+        <item>Santro</item>
+        <item>Xcent</item>
+        <item>Elantra</item>
+        <item>Elantra Fluidic</item>
+        <item>Elite I20</item>
+        <item>Eon</item>
+        <item>Grand I20</item>
+        <item>I10</item>
+        <item>I20</item>
+        <item>Sonata</item>
+        <item>Terracan</item>
+        <item>Verna</item>
+        <item>Verna Fluidic</item>
+        <item>Creta</item>
+        <item>SantaFe</item>
+    </string-array>
+    <string-array name="MahindraRenault">
+        <item>Logan</item>
+    </string-array>
+    <string-array name="Maruti">
+        <item>New Swift (Diesel)</item>
+        <item>Swift (Diesel)</item>
+        <item>Alto</item>
+        <item>Alto 800</item>
+        <item>Alto K10</item>
+        <item>800</item>
+        <item>A Star</item>
+        <item>Celerio</item>
+        <item>Eeco</item>
+        <item>Ertiga</item>
+        <item>Omni</item>
+        <item>SX4</item>
+        <item>Ritz</item>
+        <item>Wagon R (Hatch Back)</item>
+        <item>Zen Estilo</item>
+        <item>1000</item>
+        <item>Altura</item>
+        <item>Baleno</item>
+        <item>Ciaz</item>
+        <item>Esteem</item>
+        <item>Grand Vitara</item>
+        <item>Gypsy</item>
+        <item>Kizashi</item>
+        <item>New Swift (Petrol)</item>
+        <item>S Cross</item>
+        <item>Stingray</item>
+        <item>Swift (Petrol)</item>
+        <item>Swift Dzire</item>
+        <item>Versa</item>
+        <item>Vitara Brezza</item>
+    </string-array>
+
+    <string-array name="Nissan">
+        <item>Micra</item>
+        <item>Almera</item>
+        <item>Camino Primeria</item>
+        <item>Diatsun</item>
+        <item>Evalia</item>
+        <item>Infinity</item>
+        <item>Sunny</item>
+        <item>Urvan</item>
+        <item>370 Z</item>
+        <item>Teana</item>
+        <item>Terrano</item>
+        <item>XTrail</item>
+        <item>Blue Bird</item>
+        <item>GTR R 35</item>
+    </string-array>
+
+    <string-array name="Renault">
+        <item>Kwid</item>
+        <item>Pulse</item>
+        <item>Scala</item>
+        <item>Fluence</item>
+        <item>Koleos</item>
+        <item>Lodgy</item>
+        <item>Duster</item>
+    </string-array>
+
+    <string-array name="Skoda">
+        <item>Yeti</item>
+        <item>Fabia</item>
+        <item>Fabia (Hatch Back)</item>
+        <item>Rapid</item>
+        <item>Laura</item>
+        <item>Octavia</item>
+        <item>Superb</item>
+    </string-array>
+
+    <string-array name="Tata">
+        <item>Indica</item>
+        <item>Indigo</item>
+        <item>Manza</item>
+        <item>Safari</item>
+        <item>Sumo</item>
+        <item>Ace (BUS)</item>
+        <item>Ace (PVT)</item>
+        <item>Aria</item>
+        <item>Bolt</item>
+        <item>Estate</item>
+        <item>Iris</item>
+        <item>Magic Iris</item>
+        <item>Mobile</item>
+        <item>Movus LX</item>
+        <item>Nano</item>
+        <item>Sierra</item>
+        <item>Spacio</item>
+        <item>Tiago</item>
+        <item>Tourin</item>
+        <item>Tigor</item>
+        <item>Venture</item>
+        <item>Winger</item>
+        <item>Xenon</item>
+        <item>Zest</item>
+        <item>Armoured Safari</item>
+    </string-array>
+
+    <string-array name="Toyota">
+        <item>Etios</item>
+        <item>Etios Cross</item>
+        <item>Etios Liva</item>
+        <item>Fortuner</item>
+        <item>Liva</item>
+        <item>Innova</item>
+        <item>Innova Crysta</item>
+        <item>Corolla</item>
+        <item>Lexus</item>
+        <item>Prius</item>
+        <item>Royal Saloon</item>
+        <item>Vellfire</item>
+        <item>4Runner</item>
+        <item>Hiace</item>
+        <item>Hiace</item>
+        <item>Camry</item>
+        <item>Prado</item>
+        <item>Landcruiser</item>
+    </string-array>
+
+    <string-array name="Volkswagen">
+        <item>Polo (Diesel)</item>
+        <item>Vento (Diesel)</item>
+        <item>Polo (Petrol)</item>
+        <item>vento (Petrol)</item>
+        <item>Beetle</item>
+        <item>Caravelle</item>
+        <item>Jetta</item>
+        <item>Passat</item>
+        <item>Phaeton</item>
+    </string-array>
+
     <string-array name="Fuel">
         <item>Petrol</item>
         <item>Diesel</item>
@@ -12,7 +272,7 @@
     <string-array name="EngineCC">
         <item> Less than 1000 cc"</item>
         <item>1000-1500 cc</item>
-        <item> More than 1000 cc"</item>
+        <item> More than 1500 cc"</item>
     </string-array>
     <string-array name="Zones">
         <item>Zone A</item>

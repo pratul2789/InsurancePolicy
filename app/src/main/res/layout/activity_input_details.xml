@@ -202,7 +202,6 @@
                 android:layout_alignBottom="@+id/odPremium"
                 android:layout_toEndOf="@+id/Modelcars"
                 android:layout_toRightOf="@+id/Modelcars"
-                android:text="1234567"
                 android:textSize="20sp" />
 
             <TextView
@@ -242,7 +241,6 @@
                 android:layout_alignBottom="@+id/Premium"
                 android:layout_alignEnd="@+id/seatcap"
                 android:layout_alignRight="@+id/seatcap"
-                android:text="789456123"
                 android:textSize="20sp" />
 
             <TextView
@@ -374,7 +372,6 @@
                 android:layout_alignBottom="@+id/paPass"
                 android:layout_toEndOf="@+id/paPass"
                 android:layout_toRightOf="@+id/paPass"
-                android:text="1234567"
                 android:textSize="20sp" />
 
             <TextView
