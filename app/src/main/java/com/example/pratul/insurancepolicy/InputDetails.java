@@ -237,6 +237,62 @@ public class InputDetails extends AppCompatActivity implements AdapterView.OnIte
                                 @Override
                                 public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                                     carModel = adapterView.getItemAtPosition(i).toString();
+                                    if(carModel.equals("Aveo")){
+                                        carDisc = 40;
+                                        carSegment="Compact";
+                                        preVal = odVal -((carDisc/100)*odVal);
+                                    }else if(carModel.equals("Beat")){
+                                        carDisc = 40;
+                                        carSegment="Compact";
+                                        preVal = odVal -((carDisc/100)*odVal);
+                                    }else if(carModel.equals("Enjoy")){
+                                        carDisc = 40;
+                                        carSegment="MPV-SUV";
+                                        preVal = odVal -((carDisc/100)*odVal);
+                                    }else if(carModel.equals("Forester")){
+                                        carDisc = 40;
+                                        carSegment="MPV-SUV";
+                                        preVal = odVal -((carDisc/100)*odVal);
+                                    }else if(carModel.equals("Optra")){
+                                        carDisc = 40;
+                                        carSegment="High-End";
+                                        preVal = odVal -((carDisc/100)*odVal);
+                                    }else if(carModel.equals("Sail")){
+                                        carDisc = 40;
+                                        carSegment="Compact";
+                                        preVal = odVal -((carDisc/100)*odVal);
+                                    }else if(carModel.equals("Spark")){
+                                        carDisc = 40;
+                                        carSegment="Compact";
+                                        preVal = odVal -((carDisc/100)*odVal);
+                                    }else if(carModel.equals("Srv")){
+                                        carDisc = 40;
+                                        carSegment="Mid-Size";
+                                        preVal = odVal -((carDisc/100)*odVal);
+                                    }else if(carModel.equals("Tavera")){
+                                        carDisc = 40;
+                                        carSegment="MPV-SUV";
+                                        preVal = odVal -((carDisc/100)*odVal);
+                                    }else if(carModel.equals("Captiva")){
+                                        carDisc = 45;
+                                        carSegment="High-End";
+                                        preVal = odVal -((carDisc/100)*odVal);
+                                    }else if(carModel.equals("Nova")){
+                                        carDisc = 45;
+                                        carSegment="High-End";
+                                        preVal = odVal -((carDisc/100)*odVal);
+                                    }else if(carModel.equals("Cruze")){
+                                        carDisc = 50;
+                                        carSegment="High-End";
+                                        preVal = odVal -((carDisc/100)*odVal);
+                                    }else if(carModel.equals("trailblazer")){
+                                        carDisc = 50;
+                                        carSegment="High-End";
+                                        preVal = odVal -((carDisc/100)*odVal);
+                                    }
+                                    segment.setText(carSegment);
+                                    disc.setText(""+carDisc);
+                                    premium.setText(""+preVal);
                                 }
 
                         @Override
@@ -252,6 +308,19 @@ public class InputDetails extends AppCompatActivity implements AdapterView.OnIte
                         @Override
                         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                             carModel = adapterView.getItemAtPosition(i).toString();
+                            if(carModel.equals("Go")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Go Plus")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }
+                            segment.setText(carSegment);
+                            disc.setText(""+carDisc);
+                            premium.setText(""+preVal);
+
                         }
 
                         @Override
@@ -267,6 +336,46 @@ public class InputDetails extends AppCompatActivity implements AdapterView.OnIte
                         @Override
                         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                             carModel = adapterView.getItemAtPosition(i).toString();
+                            if(carModel.equals("Avventura")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.contains("Grande")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Linea")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Palio")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Petra")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Punto")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Siena")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Uno")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("500")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }
+                            segment.setText(carSegment);
+                            disc.setText(""+carDisc);
+                            premium.setText(""+preVal);
                         }
 
                         @Override
@@ -282,6 +391,58 @@ public class InputDetails extends AppCompatActivity implements AdapterView.OnIte
                         @Override
                         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                             carModel = adapterView.getItemAtPosition(i).toString();
+                            if(carModel.equals("Fiesta")){
+                                carDisc = 20;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Classic")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Escort")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Figo")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.contains("Aspire")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Ikon")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.contains("New")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Sportee")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Ecosport")){
+                                carDisc = 50;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Fusion")){
+                                carDisc = 50;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Endeavour")){
+                                carDisc = 55;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Mondeo")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }
+                            segment.setText(carSegment);
+                            disc.setText(""+carDisc);
+                            premium.setText(""+preVal);
                         }
 
                         @Override
@@ -297,6 +458,42 @@ public class InputDetails extends AppCompatActivity implements AdapterView.OnIte
                         @Override
                         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                             carModel = adapterView.getItemAtPosition(i).toString();
+                            if(carModel.contains("New")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Amaze")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Brio")){
+                                carDisc = 50;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("City")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.contains("Civic")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Mobilio")){
+                                carDisc = 50;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Accord")){
+                                carDisc =55;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Crv")){
+                                carDisc = 55;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }
+                            segment.setText(carSegment);
+                            disc.setText(""+carDisc);
+                            premium.setText(""+preVal);
                         }
 
                         @Override
@@ -312,6 +509,78 @@ public class InputDetails extends AppCompatActivity implements AdapterView.OnIte
                         @Override
                         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                             carModel = adapterView.getItemAtPosition(i).toString();
+                            if(carModel.equals("Accent")){
+                                carDisc = 30;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Getz")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Santro")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Xcent")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Elantra Fluidic")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Elantra")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.contains("Elite")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Eon")){
+                                carDisc = 50;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.contains("Grand")){
+                                carDisc = 50;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("I10")){
+                                carDisc = 50;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("I20")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Sonata")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Terracan")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Verna")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Verna Fluidic")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Creta")){
+                                carDisc = 55;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.contains("Santa")){
+                                carDisc = 55;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }
+                            segment.setText(carSegment);
+                            disc.setText(""+carDisc);
+                            premium.setText(""+preVal);
                         }
 
                         @Override
@@ -327,6 +596,14 @@ public class InputDetails extends AppCompatActivity implements AdapterView.OnIte
                         @Override
                         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                             carModel = adapterView.getItemAtPosition(i).toString();
+                            if(carModel.equals("Logan")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }
+                            segment.setText(carSegment);
+                            disc.setText(""+carDisc);
+                            premium.setText(""+preVal);
                         }
 
                         @Override
@@ -342,6 +619,130 @@ public class InputDetails extends AppCompatActivity implements AdapterView.OnIte
                         @Override
                         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                             carModel = adapterView.getItemAtPosition(i).toString();
+                            if(carModel.equals("New Swift (Diesel)")){
+                                carDisc = 35;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Swift (Diesel)")){
+                                carDisc = 35;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Alto")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Alto 800")){
+                                carDisc = 40;
+                                carSegment="Mini";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Alto K10")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("800")){
+                                carDisc = 45;
+                                carSegment="Mini";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("A Star")){
+                                carDisc = 45;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Celerio")){
+                                carDisc = 45;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Eeco")){
+                                carDisc = 45;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Ertiga")){
+                                carDisc = 45;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Omni")){
+                                carDisc = 45;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("SX4")){
+                                carDisc = 45;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Ritz")){
+                                carDisc = 45;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.contains("Wagon")){
+                                carDisc = 45;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Zen Estilo")){
+                                carDisc = 45;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("1000")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Altura")){
+                                carDisc = 50;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Baleno")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Ciaz")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Esteem")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Grand Vitara")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Gypsy")){
+                                carDisc = 50;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Kizashi")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("New Swift (Petrol)")){
+                                carDisc = 50;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("S Cross")){
+                                carDisc = 50;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Stingray")){
+                                carDisc = 50;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Swift (Petrol)")){
+                                carDisc = 50;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Swift Dzire")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Versa")){
+                                carDisc = 50;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Vitara Brezza")){
+                                carDisc = 50;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }
+                            segment.setText(carSegment);
+                            disc.setText(""+carDisc);
+                            premium.setText(""+preVal);
                         }
 
                         @Override
@@ -357,6 +758,66 @@ public class InputDetails extends AppCompatActivity implements AdapterView.OnIte
                         @Override
                         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                             carModel = adapterView.getItemAtPosition(i).toString();
+                            if(carModel.equals("Micra")){
+                                carDisc = 30;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Almera")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Camino Primeria")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Diatsun")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Evalia")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Infinity")){
+                                carDisc = 40;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Sunny")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Urvan")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("370 Z")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Teana")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Terrano")){
+                                carDisc = 50;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("XTrail")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Blue Bird")){
+                                carDisc = 60;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.contains("GTR")){
+                                carDisc =60;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }
+                            segment.setText(carSegment);
+                            disc.setText(""+carDisc);
+                            premium.setText(""+preVal);
                         }
 
                         @Override
@@ -372,6 +833,130 @@ public class InputDetails extends AppCompatActivity implements AdapterView.OnIte
                         @Override
                         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                             carModel = adapterView.getItemAtPosition(i).toString();
+                            if(carModel.equals("Kwid")){
+                                carDisc = 30;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Pulse")){
+                                carDisc = 30;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Alto")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Alto 800")){
+                                carDisc = 40;
+                                carSegment="Mini";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Alto K10")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("800")){
+                                carDisc = 45;
+                                carSegment="Mini";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("A Star")){
+                                carDisc = 45;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Celerio")){
+                                carDisc = 45;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Eeco")){
+                                carDisc = 45;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Ertiga")){
+                                carDisc = 45;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Omni")){
+                                carDisc = 45;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("SX4")){
+                                carDisc = 45;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Ritz")){
+                                carDisc = 45;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.contains("Wagon")){
+                                carDisc = 45;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Zen Estilo")){
+                                carDisc = 45;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("1000")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Altura")){
+                                carDisc = 50;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Baleno")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Ciaz")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Esteem")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Grand Vitara")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Gypsy")){
+                                carDisc = 50;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Kizashi")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("New Swift (Petrol)")){
+                                carDisc = 50;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("S Cross")){
+                                carDisc = 50;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Stingray")){
+                                carDisc = 50;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Swift (Petrol)")){
+                                carDisc = 50;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Swift Dzire")){
+                                carDisc = 50;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Versa")){
+                                carDisc = 50;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Vitara Brezza")){
+                                carDisc = 50;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }
+                            segment.setText(carSegment);
+                            disc.setText(""+carDisc);
+                            premium.setText(""+preVal);
                         }
 
                         @Override
@@ -387,6 +972,38 @@ public class InputDetails extends AppCompatActivity implements AdapterView.OnIte
                         @Override
                         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                             carModel = adapterView.getItemAtPosition(i).toString();
+                            if(carModel.equals("Yeti")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Fabia")){
+                                carDisc = 45;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.contains("Hatch Back")){
+                                carDisc = 45;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Rapid")){
+                                carDisc = 45;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Laura")){
+                                carDisc = 55;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Octavia")){
+                                carDisc = 55;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Superb")){
+                                carDisc = 55;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }
+                            segment.setText(carSegment);
+                            disc.setText(""+carDisc);
+                            premium.setText(""+preVal);
                         }
 
                         @Override
@@ -402,6 +1019,110 @@ public class InputDetails extends AppCompatActivity implements AdapterView.OnIte
                         @Override
                         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                             carModel = adapterView.getItemAtPosition(i).toString();
+                            if(carModel.equals("Indica")){
+                                carDisc = 20;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Indigo")){
+                                carDisc = 20;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Manza")){
+                                carDisc = 20;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Safari")){
+                                carDisc = 20;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Sumo")){
+                                carDisc = 20;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Ace (BUS)")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Ace (PVT)")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Aria")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Bolt")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Estate")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Iris")){
+                                carDisc = 40;
+                                carSegment="Mini";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Magic Iris")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Mobile")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Movus LX")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Nano")){
+                                carDisc = 40;
+                                carSegment="Mini";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Sierra")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Spacio")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Tiago")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Tourin")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Tigor")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Venture")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Winger")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Xenon")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Zest")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Armoured Safari")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }
+                            segment.setText(carSegment);
+                            disc.setText(""+carDisc);
+                            premium.setText(""+preVal);
                         }
 
                         @Override
@@ -417,6 +1138,78 @@ public class InputDetails extends AppCompatActivity implements AdapterView.OnIte
                         @Override
                         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                             carModel = adapterView.getItemAtPosition(i).toString();
+                            if(carModel.equals("Etios")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Etios Cross")){
+                                carDisc = 40;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Etios Liva")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Fortuner")){
+                                carDisc = 40;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Liva")){
+                                carDisc = 40;
+                                carSegment="Compact";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Innova")){
+                                carDisc = 45;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Innova Crysta")){
+                                carDisc = 45;
+                                carSegment="MPV-SUV";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Corolla")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Lexus")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Prius")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Royal Saloon")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Vellfire")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("4Runner")){
+                                carDisc = 55;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Hiace")){
+                                carDisc = 55;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Camry")){
+                                carDisc = 60;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Prado")){
+                                carDisc = 60;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Landcruiser")){
+                                carDisc = 65;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }
+                            segment.setText(carSegment);
+                            disc.setText(""+carDisc);
+                            premium.setText(""+preVal);
                         }
 
                         @Override
@@ -432,6 +1225,46 @@ public class InputDetails extends AppCompatActivity implements AdapterView.OnIte
                         @Override
                         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                             carModel = adapterView.getItemAtPosition(i).toString();
+                            if(carModel.equals("Polo (Diesel)")){
+                                carDisc = 25;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Vento (Diesel)")){
+                                carDisc = 25;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Polo (Petrol)")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Vento (Petrol)")){
+                                carDisc = 40;
+                                carSegment="Mid-Size";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Beetle")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Caravelle")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Jetta")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Passat")){
+                                carDisc = 50;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }else if(carModel.equals("Phaeton")){
+                                carDisc = 55;
+                                carSegment="High-End";
+                                preVal = odVal -((carDisc/100)*odVal);
+                            }
+                            segment.setText(carSegment);
+                            disc.setText(""+carDisc);
+                            premium.setText(""+preVal);
                         }
 
                         @Override
